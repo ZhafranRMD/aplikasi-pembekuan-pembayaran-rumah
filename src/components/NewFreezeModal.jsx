@@ -579,3 +579,4 @@ export default function NewFreezeModal({ isOpen, onClose, onSave }) {
     </div>
   );
 }
+

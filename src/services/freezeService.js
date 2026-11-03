@@ -395,3 +395,4 @@ export function calculateDeveloperPenalty({ hargaRumah, hariKeterlambatan }) {
     totalDenda: Math.round(totalDenda)
   };
 }
+

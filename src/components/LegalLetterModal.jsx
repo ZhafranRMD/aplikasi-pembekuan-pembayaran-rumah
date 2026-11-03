@@ -252,3 +252,4 @@ export default function LegalLetterModal({ isOpen, onClose, caseItem }) {
     </div>
   );
 }
+
