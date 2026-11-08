@@ -1,10 +1,12 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 // Konfigurasi Vite untuk Port 5500 (Standar Live Server)
 export default defineConfig({
   base: './',
-  plugins: [react()],
+  plugins: [react(), cloudflare()],
   server: {
     port: 5500,
     host: true,
